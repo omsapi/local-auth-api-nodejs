@@ -1,0 +1,46 @@
+{
+  "name": "omsapi-local-auth-api",
+  "version": "0.0.1",
+  "main": "app.js",
+  "description": "Local authentication micro-service on Node.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "author": "Konstantin Altuhov",
+  "keywords": [
+    "omsapi",
+    "webservices",
+    "node.js",
+    "auth",
+    "api",
+    "jwt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omsapi/local-auth-api"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/omsapi/local-auth-api/issues"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.12.4",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "events": "^1.0.2",
+    "express": "~4.12.4",
+    "jsonwebtoken": "^5.0.4",
+    "moment": "^2.10.6",
+    "morgan": "~1.5.3",
+    "passport-local": "^1.0.0",
+    "shortid": "^2.2.2",
+    "util": "^0.10.3",
+    "omsapi-http-errors": "omsapi/http-errors-nodejs#master",
+    "omsapi-config": "omsapi/config-nodejs#master",
+    "passport": "~0.3.2",
+    "mongoose": "~4.3.4",
+    "passport-jwt": "~1.2.1"
+  }
+}

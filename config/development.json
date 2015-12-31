@@ -1,0 +1,13 @@
+{
+  "uri":{
+    "domain":"local.portal.com",
+    "port":"8080"
+  },
+  "token": {
+    "tempAccessSecret": "my temp access secret key",
+    "tempAccessTimeout": "1800"
+  },
+  "mongodb": {
+    "connection": "mongodb://localhost/tmp"
+  }
+}
