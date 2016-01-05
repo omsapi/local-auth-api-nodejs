@@ -36,7 +36,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 app.use(passport.initialize());
-//app.use(passport.session());
 
 app.use(routes);
 
@@ -55,7 +54,6 @@ if (app.get('env') === 'development') {
     app.use(function (err, req, res, next) {
         res.status(err.status || 500);
         if (res.statusCode === 500) {
-            console.log(require('moment').utc().toString());
             console.log(err.message);
             console.log(err.stack);
         }

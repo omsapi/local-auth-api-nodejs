@@ -18,7 +18,7 @@ module.exports = function (passport) {
 
     router.post('/signup', [
         passport.authenticate('local-signup', {session: false}),
-        tempAccessToken.create,
+        tempAccessToken.create
     ], function (req, res, next) {
         res.status(201);
         res.send({
@@ -28,7 +28,7 @@ module.exports = function (passport) {
 
     router.post('/signin', [
         passport.authenticate('local-signin', {session: false}),
-        tempAccessToken.create,
+        tempAccessToken.create
     ], function (req, res, next) {
         res.send({
             tempAccessToken: res.locals.tempAccessToken
