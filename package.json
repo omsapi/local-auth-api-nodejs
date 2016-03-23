@@ -33,14 +33,13 @@
     "express": "~4.12.4",
     "jsonwebtoken": "^5.0.4",
     "moment": "^2.10.6",
+    "mongoose": "~4.3.4",
     "morgan": "~1.5.3",
+    "omsapi-config": "omsapi/config-nodejs#master",
+    "omsapi-http-errors": "omsapi/http-errors-nodejs#master",
+    "passport": "~0.3.2",
     "passport-local": "^1.0.0",
     "shortid": "^2.2.2",
-    "util": "^0.10.3",
-    "omsapi-http-errors": "omsapi/http-errors-nodejs#master",
-    "omsapi-config": "omsapi/config-nodejs#master",
-    "passport": "~0.3.2",
-    "mongoose": "~4.3.4",
-    "passport-jwt": "~1.2.1"
+    "util": "^0.10.3"
   }
 }
